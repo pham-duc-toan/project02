@@ -1,0 +1,42 @@
+:root {
+    --hong:#FF5EA1;
+    --den:#1E1E1E;
+    --nhat:#777;
+    --xam:#CCCCCC;
+    --tim:#8261EE;
+    --back-xam:#F2F2FE;
+  --font: "Raleway", sans-serif;
+  }
+
+  a:hover {
+    
+    text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+.button{
+  color: white;
+  padding: 10px 25px;
+  border-radius: 45px;
+  background: #FF5EA1;
+  display: inline-block;
+}
+.button:hover{
+  background: var(--tim);
+}
+.box-head{
+  line-height: 1.8;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box-head .title{
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.box-head .desc{
+  font-size: 15px;
+  color: var(--nhat);
+}
